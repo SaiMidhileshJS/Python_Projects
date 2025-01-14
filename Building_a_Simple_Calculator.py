@@ -1,15 +1,7 @@
-phrase = "Hello World"
+#This is a Simple Calculator
 
-print(phrase.lower())
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
 
-print(phrase.upper())
-
-print(len(phrase))
-
-print(phrase[0])
-
-print(phrase.index("W"))
-
-print(phrase.index("Hello"))
-
-print(phrase.replace("Hello", "Hey"))
+result = int(num1) + int(num2)
+print("Addition of", num1,"and", num2, "is", result)
