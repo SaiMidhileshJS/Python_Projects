@@ -1,8 +1,6 @@
 #Find all the vowels in the word/Sentence and convert them into numbers
 
-vowelList = ['a', 'e', 'i', 'o', 'u']
-for vowel in vowelList:
-    print(vowel)
+vowelList = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
 
 userInput = list(input("Enter any word: "))
 finalWord = ""
